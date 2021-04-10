@@ -39,9 +39,9 @@ I used Cypress automation framework in this assesment. In this assesment I used 
 
 ## Folder structure of the framework
 
-    * fixtures                # Storing data for data driven testing approach
-    * integration             # Test files (Test cases and assertions)
-    * page                    # Page Object definations 
+    * fixtures                * Storing data for data driven testing approach
+    * integration             * Test files (Test cases and assertions)
+    * page                    * Page Object definations 
       
 ## NOTE
 
