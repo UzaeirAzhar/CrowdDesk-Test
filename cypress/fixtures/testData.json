@@ -1,0 +1,9 @@
+{
+  "url": "https://www.crowddesk.de",
+  "konfigure_button": ".col-lg-4 > .section-content > .cd-button > .btn",
+  "start_button": "#schritt-1 > .btn",
+  "step_1": "[data-step='step-2-selection-1'] > .step-item--icon",
+  "step_2": ".row > :nth-child(1) > .btn",
+  "gescahfft": "[data-package='12,16,20'] > .step-item--icon",
+  "cookie_button": "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection"
+}
