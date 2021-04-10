@@ -10,23 +10,14 @@ on:
     branches: [ main ]
 
 jobs:
-  cypress-test:
-    name: Run on Chrome 83
-    runs-ons: ubuntu-18.04
-    container: cypress/browsers:node12.18.0-chrome83-ff77
-    steps:
-      -uses: actions/checkout@v2
-      
-      -name: Install Cypress and verify
-        run: 
-          npm ci
-          $(npm bin)/cypress verify
-          
-      -name: Run Cypress tests
-        run: npm run test:chrome
-        continue-on-error: true
-      
-      
-      -name: Generate HTML reports
-        run: npm run generate:report
-        
+      cypress-run:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout
+            uses: actions/checkout@v1
+          - name: Run blog test
+            uses: cypress-io/github-action@v1
+            with:
+              start: npm start
+              wait-on: 'http://localhost:3000'
+              config: baseUrl=https://localhost:3000
