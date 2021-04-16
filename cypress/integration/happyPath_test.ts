@@ -12,5 +12,6 @@ describe('Crowd Desk Test - Konfiguration Happy Path', () => {
         happypath.step_1();
         happypath.step_2();
         happypath.gescahfft();
+        happypath.check();
     })
 })

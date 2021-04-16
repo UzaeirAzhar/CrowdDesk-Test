@@ -5,5 +5,9 @@
   "step_1": "[data-step='step-2-selection-1'] > .step-item--icon",
   "step_2": ".row > :nth-child(1) > .btn",
   "gescahfft": "[data-package='12,16,20'] > .step-item--icon",
-  "cookie_button": "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection"
+  "cookie_button": "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection",
+  "list_item_02": ".cpf-result > :nth-child(2)",
+  "list_list_03": ".cpf-result > :nth-child(3)",
+  "expect_list_02": "Ich möchte Kapital einwerben in Höhe von: < 1 Mio.",
+  "expect_list_03": "Ich verfolge das Ziel:  \n\n\n\n\n\n\n\nein Unternehmen gründen  oder mein Unternehmen  vergrößern"
 }
